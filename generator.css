@@ -1,0 +1,103 @@
+body {
+    background-color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+main {
+    margin-top: 55px;
+    width: 1100px;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+input {
+    vertical-align: middle;
+}
+
+textarea {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 5px; 
+}
+
+#title {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    height: 2em;
+    padding-left: 5px; 
+}
+
+#easel {
+    width: 700px;
+    float: left;
+}
+
+#details {
+    width: 400px;
+    float: right;
+}
+
+#achievement {
+    border: 1px solid #000000;
+}
+
+#options {
+    display: none;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding-left: 5px;
+    padding-bottom: 10px;
+    background-color: #cccccc;
+}
+
+.button {
+    padding: 4px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #000000;
+    background-color: #cccccc;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+@font-face {
+    font-family: "leagueGothic";
+    src: url("leaguegothic.ttf");
+}
+
+#fontpreload {
+    font-family: leagueGothic;
+    position: relative;
+    left: -1000px;
+    top: -1000px;
+}
+
+a {
+    color: #000000;
+}
+
+#info {
+    position: absolute;
+    top: 580px;
+}
+
+.icon {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+}
+
+.control {
+    width: 100px;
+    display: inline-flex;
+}
+
+.light {
+    color: #cccccc;
+}
+
+#dl {
+    margin-top: 30px;
+    margin-left: 52px;
+}

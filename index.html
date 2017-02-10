@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+		<title>Real Life Achievement Generator</title>
+        <link href="generator.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <main>
+            <div id="easel">
+                <canvas id="achievement"></canvas>
+                <script src="generator.js"></script>
+            </div>
+            <div id="details">
+                <p><input type="text" value="Automated Achievements" id="title"></p>
+
+                <p><textarea rows="3" cols="50" id="description">
+Build a Free Web Application
+That Allows Any Person to Compose
+Their Own Achievement Plaques</textarea></p>
+
+                <p><div class="control light">Image:</div><input type="file" id="image" accept=".png, .gif, .jpeg, .jpg"></p>               
+
+                <div id="options">
+                    <p><div class="control">Zoom:</div><img id="reloadzoom" src="reload.png" class="icon" title="Reset Zoom"> 
+                    <input type="range" id="zoom" value="100" max="200" min="10"> 
+                    <span id="percent">100%</span></p>
+                    
+                    <p><div class="control">Rotate:</div><img id="reloadrotation" src="reload.png" class="icon" title="Reset Rotation"> 
+                    <input type="range" id="rotation" value="0" max="180" min="-180"> 
+                    <span id="degree">0&deg</span></p>
+                    
+                    <p><div class="control">Disclaimer:</div><input type="checkbox" checked id="disclaimer"></p>
+
+                    <p><div class="control">Tip:</div>Position the image by dragging it.</p>
+                    
+                    <div id="dl"><a href="" id="download" class="button" download="achievement.png">Download</a></div>
+                </div>
+
+                <div id="info">
+                    <p>Version: 0.95 — 02.09.2017</p>
+                    <p>Version: 0.91 — 08.18.2016</p>
+                    <p>Font: <a href="http://customfonts.4thfebruary.com.ua/league-gothic-cyrillic/">League Gothic Cyrillic</a></p>
+                    <p><a href="http://www.alaric.us/achievements.html">My own achievements gallery</a></p>
+                </div>
+            </div>
+            <div id="fontpreload">.</div>        
+        </main>
+    </body>
+</html>
